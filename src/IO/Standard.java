@@ -3,7 +3,7 @@ package IO;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class STD {
+public class Standard {
     public static void main(String[] args) {
         // TODO : 표준 입출력
         try {
