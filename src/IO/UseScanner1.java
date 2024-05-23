@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Scanner 클래스를 사용하여 콘솔 입력 받기
  */
-public class UseScanner {
+public class UseScanner1 {
     public static void main(String[] args) {
         // scanner의 기본 사용
         Scanner scanner = new Scanner(System.in);
