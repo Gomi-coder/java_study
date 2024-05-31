@@ -1,6 +1,11 @@
 package variable;
 
 // TODO : 변수와 자료형 공부
+
+/**
+ * 기본 데이터 유형
+ * : byte, short, int, long, float, double, char, boolean
+ */
 public class DataType {
     public static void main(String[] args) {
         // 논리형(boolean)
