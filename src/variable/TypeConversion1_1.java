@@ -15,7 +15,7 @@ package variable;
  * - 업캐스팅(Upcasting) : 자동으로
  * - 다운캐스팅(Downcasting)
  */
-public class TypeConversion1 {
+public class TypeConversion1_1 {
     public static void main(String[] args) {
         /* 1. 기본 데이터 유형의 형변환
          * - 일치적 형변환(자동 형변환)
