@@ -30,3 +30,4 @@ bin/
 /.idea/intellij-javadocs-4.0.1.xml
 
 /.idea/
+!/java_basic.iml
