@@ -32,4 +32,3 @@ bin/
 /.idea/
 !/java_basic.iml
 /java_basic.iml
-/src/operator/StringEqual.java
