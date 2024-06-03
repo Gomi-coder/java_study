@@ -1,4 +1,4 @@
-package IO;
+package inputOutput;
 
 import java.util.Scanner;
 

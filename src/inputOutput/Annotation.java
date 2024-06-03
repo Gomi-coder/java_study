@@ -1,4 +1,4 @@
-package IO;
+package inputOutput;
 
 // TODO : learn Java's annotation
 public class Annotation {

@@ -1,4 +1,4 @@
-package IO;
+package inputOutput;
 
 public class Print1 {
     public static void main(String[] args) {
