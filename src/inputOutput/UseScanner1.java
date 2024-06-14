@@ -36,5 +36,7 @@ public class UseScanner1 {
         System.out.println("문자 한 개를 입력하세요 : ");
         char character = scanner.next().charAt(0);
         System.out.println("입력한 문자는 " + character + "입니다.");
+
+        scanner.close();
     }
 }
