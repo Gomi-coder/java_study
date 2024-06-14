@@ -13,6 +13,9 @@ package variable;
  * - String.valueOf()
  * - Integer.toString() : 정수 → 문자열
  * - Double.toString() : 실수 → 문자열
+ * *
+ * 3. 문자를 정수형으로 형변환 (char → Integer)
+ * - Character.getNumbericValue()
  */
 public class TypeConversion1_2 {
     public static void main(String[] args) {
@@ -45,5 +48,11 @@ public class TypeConversion1_2 {
         double num6 = 3.14;
         String str6 = String.valueOf(num6);
         System.out.println(str6); // 출력: "3.14"
+
+        // 문자를 정수로
+        String numberString = "78720646226947352489";
+        char idx7 = numberString.charAt(7); // 특정 인덱스, 특정 위치의 문자
+        int idx7toInt = Character.getNumericValue(idx7);
+        System.out.println(idx7toInt);
     }
 }
