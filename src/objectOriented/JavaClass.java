@@ -1,5 +1,7 @@
 package objectOriented;
 
+import objectOriented.SubClass.ForJavaClass;
+
 /**
  * Created by Iju on 2024-07-09
  * 클래스의 설계 방법
@@ -21,15 +23,20 @@ public class JavaClass {
         ForJavaClass c1 = new ForJavaClass();
 
         // 맴버의 접근
-        c1.va = 100;
-        System.out.println(c1.va);
+        c1.setVa(100);
+        c1.vaa = 300;
+        // 현재 forJavaClass가 JavaClass와 다른 패키지에 있음.
+        // va 변수는 접근 제어가자 default → 직접 접근 불가
+        // vaa 변수는 접근 제어자가 public → 직접 접근 가능
+        System.out.println(c1.getVa());
+        System.out.println(c1.vaa);
 
         c1.setVa(1000);
         System.out.println(c1.getVa());
 
         ForJavaClass c2 = new ForJavaClass();
-        c2.va = 200;
-        System.out.println(c2.va);
+        c2.setVa(200);
+        System.out.println(c2.getVa());
 
         c2.setVa(2000);
         System.out.println(c2.getVa());
