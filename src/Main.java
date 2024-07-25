@@ -13,6 +13,12 @@ public class Main {
      *             프로그램을 실행할 때 커맨드 라인에서 전달되는 인수를 저장하는 배열.
      *             주로 프로그램 실행 시 필요한 설정값이나 입력값 등을 전달할 때 사용됨.
      *             배열의 이름은 args이며 배열의 요소는 문자열이라는 의미.
+     *
+     *             프로그램을 실행할 때 사용자가 프로그램으로 직접 값을 넘겨줄 때 사용
+     *             java 클래스명 값1 값2 값3
+     *
+     *             => 값을 세 개 넣어주면 args가 3개짜리 배열로 생성이 됨.
+     *
      * <p>
      * `public static void main`의 의미 :
      *      이 프로그램은 외부에서 접근할 수 있고,
@@ -29,6 +35,14 @@ public class Main {
             // Press Ctrl+D to start debugging your code. We have set one breakpoint
             // for you, but you can always add more by pressing Cmd+F8.
             System.out.println("i = " + i);
+        }
+
+        // args 사용 테스트
+        // cmd창에서 실행 → args에 값을 넘겨주면 확인 가능]
+        // 이클립스 → run as
+        // intellij → edit configuration
+        for (String arg : args) { // (int i = 0; i<args.length; i++)
+            System.out.println(arg);
         }
     }
 }
